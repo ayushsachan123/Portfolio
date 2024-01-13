@@ -1,41 +1,35 @@
 import React from 'react'
 import {Col, Row} from 'react-bootstrap'
+import {CgCPlusPlus} from 'react-icons/cg'
 import {
-  DiReact,
-  DiNodejs,
+  DiJavascript1,
+  DiPython,
 } from 'react-icons/di'
-import { 
-SiRedux, 
-SiNumpy, 
-SiPandas 
-} from "react-icons/si";
+import { FaHtml5 , FaCss3} from "react-icons/fa";
+// import {
 
-import { FaBootstrap } from "react-icons/fa";
+// } from 'react-icons/si'
 
-function Techstack() {
+function Languages() {
   return (
     <Row style={{justifyContent: 'center', paddingBottom: '50px'}}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <CgCPlusPlus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+      <FaHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <FaBootstrap />
+      <FaCss3/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <SiRedux />
+        <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <SiNumpy />
+        <DiPython />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-      <SiPandas />
-      </Col>
-
     </Row>
   )
 }
 
-export default Techstack
+export default Languages;

@@ -27,9 +27,8 @@ function Home2() {
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">
-                  Web Technologies, Application developement and Products{' '}
-                </b>{' '}
-                and also in areas related to <b className="purple">Clouds.</b>
+                  Web Technologies, Application developement and Products.{' '}
+                </b>
               </i>
               <br />
               <br />

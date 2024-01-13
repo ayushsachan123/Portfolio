@@ -4,6 +4,7 @@ import Particle from "../Particle";
 // import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
+import Languages from "./Languages";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import ReactGA from "react-ga";
@@ -39,11 +40,19 @@ function About() {
           </Col> */}
         {/* </Row> */}
        </Container>
+       
         <Container fluid className="about-section">
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
+        <h1 className="project-heading">
+          <strong className="purple">Languages</strong>
+        </h1>
+        <Languages/>
 
+        <h1 className="project-heading">
+          <strong className="purple">Framework</strong>
+        </h1>
         <Techstack />
 
         <h1 className="project-heading">
