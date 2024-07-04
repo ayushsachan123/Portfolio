@@ -10,6 +10,7 @@ import news_app from "../../Assets/Projects/news_app.png";
 import profileViewer from "../../Assets/Projects/profileViewer.jpg";
 import flimfix_Suggester from "../../Assets/Projects/flimfix_Suggester.jpg";
 import netflix from "../../Assets/Projects/netflix.png";
+import quizApp from "../../Assets/Projects/Quiz_App.jpg"
 import ReactGA from "react-ga";
 
 function Projects() {
@@ -27,6 +28,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={quizApp}
+              isBlog={false}
+              title="Quiz App"
+              description="This project features a robust application with distinct user interfaces for users and admins, and secure JWT authentication with password hashing. Admins can manage exams, including adding questions and answers, with real-time CRUD updates. The application includes a timer for exam sessions, live result display after exams."
+              link="https://github.com/ayushsachan123/Online_Quiz_Maker"
+              liveLink="https://online-quiz-maker-two.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Resume_Builder}
