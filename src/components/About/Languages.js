@@ -6,9 +6,6 @@ import {
   DiPython,
 } from 'react-icons/di'
 import { FaHtml5 , FaCss3} from "react-icons/fa";
-// import {
-
-// } from 'react-icons/si'
 
 function Languages() {
   return (
