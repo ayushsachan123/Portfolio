@@ -1,10 +1,7 @@
 import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
-import pdf from "../../Assets/Ayush_Sacha_Resume.pdf";
-import { AiOutlineDownload } from "react-icons/ai";
 import ReactGA from "react-ga";
 
 function Resume() {
@@ -21,13 +18,13 @@ function Resume() {
             <Resumecontent
               title=""
               content={[
-                `Solved 700+ Problems solved on Leetcode and geeksforgeeks.`,
-                `Ranked 2 star on Codechef — Highest Rating 1560 (2-star).`,
+                `Solved 1000+ Problems solved on Leetcode and geeksforgeeks.`,
+                `Ranked 3 star on Codechef — Highest Rating 1715.`,
                 `Contributed to multiple open source projects in GirlScript Summer of Code(GSSOC'23).`,
                 `2200+ contributions and streak of 400+ consecutive days of coding on GitHub.`,
                 `Stood 3rd among all teams in the HackOverflow Hackathon organized by IIT Jodhpur.`,
                 `Stood 2nd in 1st year’s competitive programming contest, KIET Ghaziabad.`,
-                `Solved 1000+ Algorithmic problems on various online platform and online judges.`
+                `Solved 1500+ Algorithmic problems on various online platform and online judges.`
               ]}
             />
 
