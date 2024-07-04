@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import { AiOutlineDownload } from "react-icons/ai";
-import pdf from "../../Assets/../Assets/Ayush_Sacha_Resume.pdf";
+import pdf from "../../Assets/../Assets/Ayush_Sachan_Resume.pdf";
 import Home2 from "./Home2";
 import Type from "./Type";
 import ReactGA from "react-ga";
